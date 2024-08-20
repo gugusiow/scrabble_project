@@ -209,6 +209,9 @@ function App() {
   const [gameOver, setGameOver] = useState(false); 
   const [finalScores, setFinalScores] = useState([]);
 
+  // test commit
+  const [balls] = "balls";
+
   const resetGame = () => {
     setBoard(initialBoard);  // Assuming you have an initial board setup
     setRack([
